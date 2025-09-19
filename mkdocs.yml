@@ -22,6 +22,7 @@ nav:
           - Functions: SQE/syntax/function.md
   - PyPipPark:
     - Overview: pypippark/index.md
+    - Installation: pypippark/installation.md
 
 theme:
   name: material
