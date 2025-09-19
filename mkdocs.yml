@@ -20,6 +20,8 @@ nav:
           - Print: SQE/syntax/print.md
           - Title: SQE/syntax/title.md
           - Functions: SQE/syntax/function.md
+  - PyPipPark:
+    - Overview: pypippark/index.md
 
 theme:
   name: material
