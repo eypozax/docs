@@ -9,13 +9,12 @@ There are different methods to install **PyPipPark** on your device:
 
 2. Install the `.deb` file. You have two options:
 
-* **Graphical installation:** Right-click the downloaded file and select **Install**.  
-* **Command line installation:** Open a terminal and run:
+    * **Graphical installation:** Right-click the downloaded file and select **Install**.  
+    * **Command line installation:** Open a terminal and run:
 
-```bash
-# Needs sudo permission
-sudo dpkg -i path/to/downloaded/file.deb
-```
+    ```
+    sudo dpkg -i path/to/downloaded/file.deb // Needs sudo permission
+    ```
 
 ---
 
@@ -26,10 +25,10 @@ sudo dpkg -i path/to/downloaded/file.deb
 
 2. Move the downloaded binary to `/usr/local/bin`:
 
-```bash
-# Needs sudo permission
+```
+// Needs sudo permission
 sudo cp path/to/downloaded/file /usr/local/bin
 
-# Make sure the binary is executable (if needed)
+// Make sure the binary is executable (if needed)
 sudo chmod +x /usr/local/bin/pypippark
 ```
