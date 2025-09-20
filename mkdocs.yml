@@ -5,6 +5,9 @@ site_dir: docs
 
 nav:
   - Home: index.md
+  - general guides:
+      - Build: gg/build.md
+      - Clone: gg/clone.md
   - urplans:
       - Overview: urplans/index.md
       - Setup: urplans/setup.md
@@ -12,6 +15,7 @@ nav:
       - Architecture: urplans/architecture.md
   - SQE:
       - Overview: SQE/index.md
+      - Installation: SQE/install.md
       - Syntax:
           - Examples: SQE/syntax/example.md
           - Choice: SQE/syntax/choice.md
@@ -22,7 +26,10 @@ nav:
           - Functions: SQE/syntax/function.md
   - PyPipPark:
     - Overview: pypippark/index.md
-    - Installation: pypippark/installation.md
+    - Installation: pypippark/install.md
+  - Swap Manager:
+    - Overview: swap-manager/index.md
+    - Installation: swap-manager/install.md
 
 theme:
   name: material
